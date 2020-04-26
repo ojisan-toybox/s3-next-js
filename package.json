@@ -1,0 +1,17 @@
+{
+  "name": "s3-next-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ojisan-toybox/s3-next-js.git",
+  "author": "sadness_ojisan <sadness.ojisan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.3.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build"
+  }
+}
