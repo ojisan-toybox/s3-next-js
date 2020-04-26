@@ -1,6 +1,29 @@
 # s3-next-js
 
-s3 に Next.js をデプロイ
+s3 に Next.js をデプロイ.
+
+## dev
+
+S3
+
+```zsh
+# 初回のみ
+terraform init
+
+terraform apply
+```
+
+Next.js
+
+```
+yarn build
+
+yarn export
+```
+
+出てきた out を S3 にコピペすればデプロイできる.
+
+(TODO: codebuild or GHA の設定)
 
 ## memo
 
