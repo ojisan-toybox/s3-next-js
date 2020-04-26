@@ -31,4 +31,5 @@ override.tf.json
 
 # Nextjs
 node_modules/
-.chache
+.next
+.env
