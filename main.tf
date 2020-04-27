@@ -18,14 +18,6 @@ resource "aws_s3_bucket" "main" {
     "Redirect": {
         "ReplaceKeyPrefixWith": "about.html"
     }
-},
-{
-    "Condition": {
-        "KeyPrefixEquals": "contact/"
-    },
-    "Redirect": {
-        "ReplaceKeyPrefixWith": "/index.html"
-    }
 }
 ]
 EOF
