@@ -13,7 +13,7 @@ resource "aws_s3_bucket" "main" {
     routing_rules  = <<EOF
 [{
     "Condition": {
-        "KeyPrefixEquals": "about"
+        "KeyPrefixEquals": "about/"
     },
     "Redirect": {
         "ReplaceKeyPrefixWith": "about.html"
