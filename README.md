@@ -23,10 +23,6 @@ yarn build
 yarn export
 ```
 
-出てきた out を S3 にコピペすればデプロイできる.
-
-(TODO: codebuild or GHA の設定)
-
 ## memo
 
 > オブジェクトのメタデータでウェブサイトのリダイレクト場所を設定することで、オブジェクトのリクエストを別のオブジェクトまたは URL にリダイレクトできます。リダイレクトを設定するには、オブジェクトメタデータに x-amz-website-redirect-location プロパティを追加します。Amazon S3 コンソールで、オブジェクトのメタデータ内のウェブサイトのリダイレクト場所を設定できます。Amazon S3 API を使用する場合は、x-amz-website-redirect-location を設定します。ウェブサイトは 301 リダイレクトとしてオブジェクトを解釈します。
